@@ -1,6 +1,6 @@
-const solution = require('./01-binary-gap');
+const solution = require('./02-binary-gap');
 
-describe('BinaryGap', () => {
+xdescribe('BinaryGap', () => {
   it('N=0', () => {
     expect(solution(0)).toEqual(0);
   });
